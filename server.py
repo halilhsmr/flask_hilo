@@ -9,7 +9,7 @@ random_number = random.randint(0, 9)
 def hello():
     return '<h1>Guess a number between 0 and 9</h1>' \
            '<img src="https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif">' \
-           '<p>Type it to the end of link (i.e. "/8") </p>'
+           '<p>Type it to the end of link (i.e. "https://halilhsmr.github.io/flask_hilo//8") </p>'
 
 
 @app.route("/<int:guess>")
